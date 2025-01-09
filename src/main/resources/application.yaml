@@ -1,0 +1,3 @@
+spring.application.name=spring-mockbean-test
+my.props.bar=dev_bar
+my.props.foo=dev_foo
