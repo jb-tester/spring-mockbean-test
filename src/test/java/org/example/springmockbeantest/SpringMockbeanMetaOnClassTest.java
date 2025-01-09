@@ -19,7 +19,7 @@ class SpringMockbeanMetaOnClassTest {
     @Autowired
     BuzzComponent buzz;
 
-
+ // false error is shown
     @Autowired
     private MyConfigProperties appProps;
 
