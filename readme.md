@@ -9,4 +9,7 @@ i.e. if the application class defines both annotations
 @EnableConfigurationProperties(MyConfigProperties.class)
 @ConfigurationPropertiesScan
 public class SpringMockbeanTestApplication {}
+
 ```
+In this case the autowiring error is shown in the test that mocks this bean via meta annotation
+(org.example.springmockbeantest.SpringMockbeanMetaOnClassTest), but not in other tests.
